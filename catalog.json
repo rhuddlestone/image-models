@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-05-04T00:00:00Z",
+  "presets": [
+    {
+      "id": "runware-100-article",
+      "label": "Runware 100 — Article landscape",
+      "role": "article",
+      "params": {
+        "taskType": "imageInference",
+        "model": "runware:100@1",
+        "width": 1024,
+        "height": 768,
+        "numberResults": 1,
+        "outputType": ["URL"],
+        "outputFormat": "JPEG",
+        "includeCost": true
+      }
+    },
+    {
+      "id": "gpt-image-2-low-featured",
+      "label": "GPT-Image-2 (low) — Featured wide",
+      "role": "featured",
+      "params": {
+        "taskType": "imageInference",
+        "model": "openai:gpt-image@2",
+        "width": 1536,
+        "height": 1024,
+        "numberResults": 1,
+        "outputType": ["URL"],
+        "includeCost": true,
+        "providerSettings": { "openai": { "quality": "low" } }
+      }
+    },
+    {
+      "id": "seedream-5-lite-pinterest",
+      "label": "Seedream 5.0 Lite — Pinterest vertical",
+      "role": "pinterest",
+      "params": {
+        "taskType": "imageInference",
+        "model": "bytedance:seedream@5.0-lite",
+        "width": 1664,
+        "height": 2496,
+        "numberResults": 1,
+        "outputType": ["URL"],
+        "includeCost": true
+      }
+    }
+  ]
+}
