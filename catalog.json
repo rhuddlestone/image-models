@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-04T08:50:00Z",
+  "updatedAt": "2026-06-13T00:00:00Z",
   "presets": [
     {
       "id": "runware-100-article",
@@ -33,6 +33,21 @@
       }
     },
     {
+      "id": "gpt-image-2-medium-article",
+      "label": "GPT-Image-2 (medium) — Article 2:3",
+      "role": "article",
+      "params": {
+        "taskType": "imageInference",
+        "model": "openai:gpt-image@2",
+        "width": 1024,
+        "height": 1536,
+        "numberResults": 1,
+        "outputType": ["URL"],
+        "includeCost": true,
+        "providerSettings": { "openai": { "quality": "medium" } }
+      }
+    },
+    {
       "id": "gpt-image-2-low-featured",
       "label": "GPT-Image-2 (low) — Featured wide",
       "role": "featured",
@@ -45,6 +60,21 @@
         "outputType": ["URL"],
         "includeCost": true,
         "providerSettings": { "openai": { "quality": "low" } }
+      }
+    },
+    {
+      "id": "gpt-image-2-medium-featured",
+      "label": "GPT-Image-2 (medium) — Featured wide",
+      "role": "featured",
+      "params": {
+        "taskType": "imageInference",
+        "model": "openai:gpt-image@2",
+        "width": 1536,
+        "height": 1024,
+        "numberResults": 1,
+        "outputType": ["URL"],
+        "includeCost": true,
+        "providerSettings": { "openai": { "quality": "medium" } }
       }
     },
     {
@@ -74,6 +104,21 @@
         "outputType": ["URL"],
         "includeCost": true,
         "providerSettings": { "openai": { "quality": "low" } }
+      }
+    },
+    {
+      "id": "gpt-image-2-medium-pinterest",
+      "label": "GPT-Image-2 (medium) — Pinterest 2:3",
+      "role": "pinterest",
+      "params": {
+        "taskType": "imageInference",
+        "model": "openai:gpt-image@2",
+        "width": 1024,
+        "height": 1536,
+        "numberResults": 1,
+        "outputType": ["URL"],
+        "includeCost": true,
+        "providerSettings": { "openai": { "quality": "medium" } }
       }
     }
   ]
