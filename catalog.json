@@ -12,69 +12,49 @@
         "width": 1024,
         "height": 768,
         "numberResults": 1,
-        "outputType": ["URL"],
+        "outputType": [
+          "URL"
+        ],
         "outputFormat": "JPEG",
         "includeCost": true
       }
     },
     {
-      "id": "gpt-image-2-low-article",
-      "label": "GPT-Image-2 (low) — Article 2:3",
+      "id": "gpt-image-2-5-flare-article",
+      "label": "GPT-Image-2.5 Flare — Article 2:3",
       "role": "article",
       "params": {
         "taskType": "imageInference",
-        "model": "openai:gpt-image@2",
+        "model": "openai:gpt-image@2.5-flare",
         "width": 1024,
         "height": 1536,
         "numberResults": 1,
-        "outputType": ["URL"],
-        "includeCost": true,
-        "providerSettings": { "openai": { "quality": "low" } }
+        "outputType": [
+          "URL"
+        ],
+        "outputFormat": "JPG",
+        "outputQuality": 95,
+        "deliveryMethod": "sync",
+        "includeCost": true
       }
     },
     {
-      "id": "gpt-image-2-medium-article",
-      "label": "GPT-Image-2 (medium) — Article 2:3",
-      "role": "article",
-      "params": {
-        "taskType": "imageInference",
-        "model": "openai:gpt-image@2",
-        "width": 1024,
-        "height": 1536,
-        "numberResults": 1,
-        "outputType": ["URL"],
-        "includeCost": true,
-        "providerSettings": { "openai": { "quality": "medium" } }
-      }
-    },
-    {
-      "id": "gpt-image-2-low-featured",
-      "label": "GPT-Image-2 (low) — Featured wide",
+      "id": "gpt-image-2-5-flare-featured",
+      "label": "GPT-Image-2.5 Flare — Featured wide",
       "role": "featured",
       "params": {
         "taskType": "imageInference",
-        "model": "openai:gpt-image@2",
+        "model": "openai:gpt-image@2.5-flare",
         "width": 1536,
         "height": 1024,
         "numberResults": 1,
-        "outputType": ["URL"],
-        "includeCost": true,
-        "providerSettings": { "openai": { "quality": "low" } }
-      }
-    },
-    {
-      "id": "gpt-image-2-medium-featured",
-      "label": "GPT-Image-2 (medium) — Featured wide",
-      "role": "featured",
-      "params": {
-        "taskType": "imageInference",
-        "model": "openai:gpt-image@2",
-        "width": 1536,
-        "height": 1024,
-        "numberResults": 1,
-        "outputType": ["URL"],
-        "includeCost": true,
-        "providerSettings": { "openai": { "quality": "medium" } }
+        "outputType": [
+          "URL"
+        ],
+        "outputFormat": "JPG",
+        "outputQuality": 95,
+        "deliveryMethod": "sync",
+        "includeCost": true
       }
     },
     {
@@ -87,38 +67,29 @@
         "width": 1664,
         "height": 2496,
         "numberResults": 1,
-        "outputType": ["URL"],
+        "outputType": [
+          "URL"
+        ],
         "includeCost": true
       }
     },
     {
-      "id": "gpt-image-2-low-pinterest",
-      "label": "GPT-Image-2 (low) — Pinterest 2:3",
+      "id": "gpt-image-2-5-flare-pinterest",
+      "label": "GPT-Image-2.5 Flare — Pinterest 2:3",
       "role": "pinterest",
       "params": {
         "taskType": "imageInference",
-        "model": "openai:gpt-image@2",
+        "model": "openai:gpt-image@2.5-flare",
         "width": 1024,
         "height": 1536,
         "numberResults": 1,
-        "outputType": ["URL"],
-        "includeCost": true,
-        "providerSettings": { "openai": { "quality": "low" } }
-      }
-    },
-    {
-      "id": "gpt-image-2-medium-pinterest",
-      "label": "GPT-Image-2 (medium) — Pinterest 2:3",
-      "role": "pinterest",
-      "params": {
-        "taskType": "imageInference",
-        "model": "openai:gpt-image@2",
-        "width": 1024,
-        "height": 1536,
-        "numberResults": 1,
-        "outputType": ["URL"],
-        "includeCost": true,
-        "providerSettings": { "openai": { "quality": "medium" } }
+        "outputType": [
+          "URL"
+        ],
+        "outputFormat": "JPG",
+        "outputQuality": 95,
+        "deliveryMethod": "sync",
+        "includeCost": true
       }
     }
   ]
