@@ -32,6 +32,11 @@
         "outputType": [
           "URL"
         ],
+        "settings": {
+          "background": "auto",
+          "moderation": "auto",
+          "quality": "low"
+        },
         "outputFormat": "JPG",
         "outputQuality": 95,
         "deliveryMethod": "sync",
@@ -51,6 +56,11 @@
         "outputType": [
           "URL"
         ],
+        "settings": {
+          "background": "auto",
+          "moderation": "auto",
+          "quality": "low"
+        },
         "outputFormat": "JPG",
         "outputQuality": 95,
         "deliveryMethod": "sync",
@@ -86,6 +96,11 @@
         "outputType": [
           "URL"
         ],
+        "settings": {
+          "background": "auto",
+          "moderation": "auto",
+          "quality": "low"
+        },
         "outputFormat": "JPG",
         "outputQuality": 95,
         "deliveryMethod": "sync",
